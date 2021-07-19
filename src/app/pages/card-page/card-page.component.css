@@ -1,6 +1,7 @@
 div{
   display: flex;
   justify-content: center;
+  margin-top: 50px;
   padding: 10px;
 }
 
@@ -8,7 +9,10 @@ label{
   margin-right: 10px;
   font-family: Verdana;
 }
-
+input {
+  border: 1px solid ;
+  margin-right: 3px;
+}
 button {
   width: 70px;
   height: 30px;

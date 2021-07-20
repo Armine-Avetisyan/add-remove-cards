@@ -10,8 +10,8 @@ export class AppComponent {
 
   reset() {
     const message = confirm("You are not able to add new cards your limit reached");
-    if (message == true) {
-      this.items.length = 0;
+    if (message === true) {
+      this.items = [];
     }
   }
   addItem(newItem: string) {
@@ -24,7 +24,7 @@ export class AppComponent {
   }
   remove() {
     if (this.items[this.items.length -1] !== ''){
-      this.items.length--
+      this.items.pop();
     }
   }
 
